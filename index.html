@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat|Open+Sans' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/graph.js"></script>
+	<script type="text/javascript" src="js/collide.js"></script>
+	<title>Data Breaches</title>
+</head>
+<body>
+	<div id="header">
+		<h1>Worlds Biggest Data Breaches</h1>
+		<div class="subtitle">Selected losses greater than 30,000 records, since 2004 different kind of companies and organizations leaking data.</div>
+
+		<ul class="legend">
+			<li class="yellow"><span></span>Just e-mail adress/online information</li>
+			<li class="red"><span></span>SSN/personal details</li>
+			<li class="grey"><span></span>Credit card information</li>
+			<li class="blue"><span></span>E-mail password/health records</li>
+			<li class="orange"><span></span>Full bank account details</li>
+		</ul>
+
+		<ul class="axis">
+			<li>Filter<span class="arrow"></span></li> 
+			<li class="sens">Sensitivity</li>
+			<li class="off">Number of records stolen</li>
+		</ul>
+
+	</div>
+	<div id="box">
+		<h2></h2>
+		<div class="records"></div>
+		<div class="source"></div>
+	</div>
+	<svg></svg>
+</body>

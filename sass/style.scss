@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import '_header.scss';
+
+body{
+	font-family: 'Open Sans';
+}
+
+svg{
+	margin-top: 175px + 25px;
+}
+
+#box{
+	display: none;
+	width: 205px;
+	//height: 80px;
+	background: #f6f6f6;
+
+	position: fixed;
+	top: 175px + 25px;
+	left: 90px;
+
+	padding: 10px;
+	box-sizing: border-box;
+
+	h2{
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+	.records{
+		font-size: 12px;
+	}
+
+	.source{
+		margin-top: 10px;
+		font-size: 11px;
+	}
+}

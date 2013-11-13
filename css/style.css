@@ -1,0 +1,117 @@
+/* line 1, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 1, ../sass/_header.scss */
+#header {
+  background: #50c19d;
+  color: white;
+  position: fixed;
+  height: 175px;
+  width: 100%;
+  left: 0;
+  top: 0; }
+  /* line 12, ../sass/_header.scss */
+  #header h1 {
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat'; }
+  /* line 21, ../sass/_header.scss */
+  #header .subtitle {
+    margin-top: 3px;
+    margin-left: 90px;
+    width: 400px; }
+  /* line 27, ../sass/_header.scss */
+  #header .legend {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    list-style: none;
+    font-size: 12px; }
+    /* line 36, ../sass/_header.scss */
+    #header .legend li {
+      margin-bottom: 2px; }
+    /* line 40, ../sass/_header.scss */
+    #header .legend span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      margin-right: 10px; }
+    /* line 48, ../sass/_header.scss */
+    #header .legend .yellow span {
+      background: #fff96d; }
+    /* line 51, ../sass/_header.scss */
+    #header .legend .red span {
+      background: #b2293a; }
+    /* line 54, ../sass/_header.scss */
+    #header .legend .grey span {
+      background: #c9c9c9; }
+    /* line 57, ../sass/_header.scss */
+    #header .legend .blue span {
+      background: #2f9acc; }
+    /* line 60, ../sass/_header.scss */
+    #header .legend .orange span {
+      background: #d88942; }
+  /* line 65, ../sass/_header.scss */
+  #header .axis {
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    list-style: none; }
+    /* line 71, ../sass/_header.scss */
+    #header .axis li {
+      border-radius: 5px;
+      background: #309a78;
+      float: right;
+      padding: 3px 5px;
+      margin-left: 10px;
+      font-size: 12px; }
+    /* line 80, ../sass/_header.scss */
+    #header .axis .sens {
+      margin-left: 5px; }
+    /* line 84, ../sass/_header.scss */
+    #header .axis .arrow {
+      margin-left: 5px;
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid white;
+      position: relative;
+      top: 10px; }
+    /* line 97, ../sass/_header.scss */
+    #header .axis .off {
+      color: #b7d6cb; }
+
+/* line 8, ../sass/style.scss */
+body {
+  font-family: 'Open Sans'; }
+
+/* line 12, ../sass/style.scss */
+svg {
+  margin-top: 200px; }
+
+/* line 16, ../sass/style.scss */
+#box {
+  display: none;
+  width: 205px;
+  background: #f6f6f6;
+  position: fixed;
+  top: 200px;
+  left: 90px;
+  padding: 10px;
+  box-sizing: border-box; }
+  /* line 29, ../sass/style.scss */
+  #box h2 {
+    font-weight: bold;
+    font-size: 13px; }
+  /* line 34, ../sass/style.scss */
+  #box .records {
+    font-size: 12px; }
+  /* line 38, ../sass/style.scss */
+  #box .source {
+    margin-top: 10px;
+    font-size: 11px; }

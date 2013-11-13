@@ -1,0 +1,101 @@
+#header{
+
+	background: #50c19d;
+	color: white;
+
+	position: fixed;
+	height: 175px;
+	width: 100%;
+	left: 0;
+	top: 0;
+
+	h1{
+		margin-left: 90px;
+		margin-top: 20px;
+
+		font-size: 30px;
+
+		font-family: 'Montserrat';
+	}
+
+	.subtitle{
+		margin-top: 3px;
+		margin-left: 90px;
+		width: 400px;
+	}
+
+	.legend{
+
+		position: absolute;
+		top: 30px;
+		right: 90px;
+
+		list-style: none;
+		font-size: 12px;
+
+		li{
+			margin-bottom: 2px;
+		}
+
+		span{
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			border-radius: 10px;
+			margin-right: 10px;
+		}
+
+		.yellow span{
+			background: #fff96d;
+		}
+		.red span{
+			background: #b2293a;
+		}
+		.grey span{
+			background: #c9c9c9;
+		}
+		.blue span{
+			background: #2f9acc;
+		}
+		.orange span{
+			background: #d88942;
+		}
+	}
+
+	.axis{
+		position: absolute;
+		bottom: 10px;
+		right: 90px;
+		list-style: none;
+
+		li{
+			border-radius: 5px;
+			background: #309a78;
+			float: right;
+			padding: 3px 5px;
+			margin-left: 10px;
+			font-size: 12px;
+		}
+
+		.sens {
+			margin-left: 5px;
+		}
+
+		.arrow{
+			margin-left: 5px;
+			width: 0; 
+			height: 0; 
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			
+			border-top: 5px solid #fff;
+
+			position: relative;
+			top: 10px;
+		}
+
+		.off{
+			color: #b7d6cb;
+		}
+	}
+}
